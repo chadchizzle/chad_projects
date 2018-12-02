@@ -7,7 +7,7 @@
 <?php
 
 /** 12/2/2018 Author: Chad D. Mills **/
-/** Tools: Adobe Brackets + Easy Dev PHP Server ^^/
+/** Tools: Adobe Brackets + Easy Dev PHP Server **/
 
 echo "<h2>Chad's Twitter API Script </h2>";
 require_once('TwitterAPIExchange.php');
@@ -20,6 +20,7 @@ $settings = array(
     'consumer_key' => "YOUR_CONSUMER_KEY",
     'consumer_secret' => "YOUR_CONSUMER_SECRET"
 	
+	);
 	
 /** construct URL variable & string	**/
 $url = "https://api.twitter.com/1.1/statuses/user_timeline.json";
